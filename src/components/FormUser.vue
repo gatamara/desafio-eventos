@@ -38,6 +38,7 @@
                         :motivo="usuario.motivo" :gravedad="usuario.gravedad" @eliminar="eliminarUsuario(index)" />
                 </li>
             </ul>
+            <p id="texto" v-if="usuarios.length == 0">Aun no hay consultas registradas</p>
         </div>
     </div>
 
@@ -99,5 +100,9 @@ form {
 
 ul {
     list-style: none;
+}
+
+#texto {
+    color: crimson;
 }
 </style>
