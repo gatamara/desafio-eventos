@@ -73,11 +73,11 @@ h3 {
 }
 
 .media {
-    background-color: green;
+    background-color: yellow;
 }
 
 .baja {
-    background-color: yellow;
+    background-color: greenyellow;
     color: black;
 }
 </style>
